@@ -495,6 +495,17 @@ CREATE TABLE `pa_flag` (
 -- --------------------------------------------------------
 
 --
+-- Dump dei dati della tabella `pa_flag`
+--
+
+INSERT INTO `pa_flag` (`id`, `flag`, `timestamp`) VALUES
+(1, 'VALID', NOW()),
+(2, 'INVALID', NOW()),
+(3, 'RETURNED', NOW());
+
+-- --------------------------------------------------------
+
+--
 -- Struttura della tabella `photo`
 --
 
